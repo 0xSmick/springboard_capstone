@@ -1,0 +1,73 @@
+Idea one:
+  Priceofweed.com
+
+What is the problem you want to solve? 
+  Discovering if there is a relation between the price of marijuana and the stance of the state regarding legality of marijuana
+
+Who is your client and why do they care about this problem? In other words, what will your client DO or DECIDE based on your analysis that they wouldn’t have otherwise?
+  My client is the state of X, they are looking at what the implications of taking a stance for legalizing marijuana and what the expected revenue woul become.
+
+What data are you going to use for this? How will you acquire this data?
+  A private dataset, priceofweed.com has a user generated list of 'how much' the user paid for the quantity, quality, and location
+
+In brief, outline your approach to solving this problem (knowing that this might change later).
+  Take dataset, clean, create additional features using census data, look at GLM models
+
+What are your deliverables? Typically, this would include code, along with a paper and/or a slide deck. 
+  Code & Slide Deck. Maybe a small web application.
+
+
+Idea two:
+  Lending Club Model Prediction
+
+What is the problem you want to solve? 
+  Taking a look at Lending Clubs datasets of loan data and create a model for predicting if the loan will be Current, Late, or Fully Paid based on the features.
+
+Who is your client and why do they care about this problem? In other words, what will your client DO or DECIDE based on your analysis that they wouldn’t have otherwise?
+  My client is investors looking at diversifying their portfolio. They would like a tool to predict which loans are under value, that could be bought and sold in the secondary market, and loan requests that have low risk.
+
+What data are you going to use for this? How will you acquire this data?
+  A private dataset on https://www.lendingclub.com/info/download-data.action, combine all CSV's together to create full data set.
+
+In brief, outline your approach to solving this problem (knowing that this might change later).
+  Take dataset, clean, create additional features, run several machine learning models (GBM, Random Forest, Clustering, Log Regression)
+
+What are your deliverables? Typically, this would include code, along with a paper and/or a slide deck. 
+  I'd like to create a web application or API that you could enter specific criteria and determine the 'rating' of the loan ofr purchasing.
+
+Idea three:
+  Citi Bike Data: https://www.citibikenyc.com/stations/json
+
+What is the problem you want to solve? 
+  Analyzing the citibike data and determining the bayesian probability that you have for returning or renting a bike. Create plots based on the chances that you would have an option to return the bike at a specific date in a specific location.
+
+Who is your client and why do they care about this problem? In other words, what will your client DO or DECIDE based on your analysis that they wouldn’t have otherwise?
+  Client is any renter of a citibike that wants a general guideline of what stations to attempt to return or rent a bike, but doesn't want the real-time information from the app.
+
+What data are you going to use for this? How will you acquire this data?
+  A private dataset on https://www.citibikenyc.com/stations/json, create a cronjob that pings this url and saves the output every X minutes
+
+In brief, outline your approach to solving this problem (knowing that this might change later).
+  Take dataset, clean, create probabilistic models and visualization that a user could easily look at (heatmap of locations) for both return and renting bikes
+
+What are your deliverables? Typically, this would include code, along with a paper and/or a slide deck. 
+  I'd like to create a web application and plot of the data gathered.
+
+Idea four: 
+  Music Recommendation for Modern Music
+
+What is the problem you want to solve? 
+  I love listening to hypem but I want to find music in spotify that would sound like this song.
+
+Who is your client and why do they care about this problem? In other words, what will your client DO or DECIDE based on your analysis that they wouldn’t have otherwise?
+  Personal app for finding new music on spotify
+
+What data are you going to use for this? How will you acquire this data?
+  Million Song DB, Spotify API, HypeMachine Specific Songs
+
+In brief, outline your approach to solving this problem (knowing that this might change later).
+  To be added later 
+
+What are your deliverables? Typically, this would include code, along with a paper and/or a slide deck. 
+  I'd like to create a web application that can help me find new songs on spotify that match the hypemachine songs
+
