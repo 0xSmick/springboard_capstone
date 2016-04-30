@@ -1,0 +1,482 @@
+you're listening to partially derivative season two episode eight 
+nndb nndb buccaneer paper podcast about data general degree from the founders of properly the first platform for totally automated super amazing customer facing absolutely badass analytics 
+I'm Jonathan I'm dissipates and the software engineer 
+I'm Nydia and I also works for probably 
+I'm Chris and %HESITATION I'm still here I guess 
+so I don't think 
+well 
+just one week at that didn 
+you made it this far yeah totally where we're glad that you're still with us 
+%HESITATION as always we're gonna stay at the shop but some drinking which is definitely but it sounds like Chris needs right now %HESITATION so if you're thirty everybody %HESITATION video but he'd taken 
+while I'm super excited %HESITATION I'm drinking sessions this is the cream premium summer ale %HESITATION a comes in and I think of of 
+%HESITATION a whole bunch of other sessions it's pretty awesome at the golden ale with the creamy head and a smooth sweet personality has a lot of federal technology eyes actually without a little 
+yeah but you know I think half the day unknot half like ninety present time I'm buying beer because of the word 
+I'm totally just basing it off of their marketing but it's delicious 
+and it's kind of a summary like lovely little treat to celebrate this rare week of sunshine and warmth in Portland %HESITATION and makes me wish I had like a porch and fireflies and like one of those rocking chairs and some friends to sit around listen supplying the wealthier nd also you know so maybe 
+who all the money Portland stopping such a jerk going up 
+yeah I know on her porch the doesn't exist 
+or higher funds that are all probably gone off 
+well I mean the other hand and drinking a wonderful class 
+Cuba and lime nnhs a glass why don't fulfill applicant is less like a it's like it's even edn I %HESITATION I like some of the important ingredients that one would need for like a good Margarita plus it's just it's just tequila lime juice for me right now 
+the very bold strongly low calorie the lazy man's Marguerite yeah I love it exactly 
+most of the 
+radiance but you know I think I was just going to Cuba nd I don't think that has a special name nnj 
+I'm pretty good dnmt 
+sn checks go boxes mn 
+that's awesome so it'll be the best show ever %HESITATION I am thinking something a little bit less harsh %HESITATION a Belgian cold ale from the south Austin brewing company and its lights mood and tasty 
+%HESITATION is very good it's actually getting hot in Texas and some repairs are definitely on everybody's mind 
+%HESITATION so come down to Texas where it's nice and warm you can enjoy this beautiful Pierre I don't know that if you saw but it turns out friends here are about half of what they are even in Oakland give it up mn Josh 
+okay alright I nto %HESITATION before we go any further de of course have to give a shout out to our sponsor everybody do a little buggy do the name a who has never sponsor five actors %HESITATION he %HESITATION their platform for distributing micro task to humans it's an amazing resource when you're working on data projects Anthony look human touch base with any kind of scale come there three different product offerings 
+they lean production for ongoing high volume data work is an API to interact with their platforms he can make it do exactly what you need I'm agile production when you have 
+but basically I can be a team of data squad to work with your tools are on your platform %HESITATION and batch production so when you have kind of a one time a semi regular project that you just need to get off the plate that's perfect for that %HESITATION they've brand new website where they're making it super easy to see which products meet your needs if up pricing calculators that show you an estimated price for your project 
+or for ongoing works and and 
+is the kicker as I'm sure everybody has heard me say before but I just wanna remind you this may be your last chance 
+because for a limited time cloud factories offering a ten percent discount on either your first month for on your project and it's a one time project this is exclusively for listeners a partially derivative because here's here's what they said to me we were behind closed doors and they were like I've heard a lot of high test nnat cast aesthetic and so we're gonna get the ten percent only to your listeners and I was like wow that's a little harsher words are star 
+there was a strong and I guess I take it I think a compliment and soon and with that you know I pull the sword out of the stone and now now dnmt 
+well now we give you ten percent how that ten percent ten percent you've all been knighted access data says vague attempts an uppercut factory %HESITATION just in case %HESITATION cut back I never said any of those things 
+maybe so but he did that that just automatically 
+that ten percent is totally real numbers that is illegal actually seriously think about is a it is a it is a fantastic service %HESITATION for like a lot of the really like annoying parts of data work the knowing tedious parts data work should athletes because your data scientists and you get paid way too much to demand 
+I'm so glad that we got com slash partially to learn how to claim your discounts and %HESITATION and sign up for the product super awesome 
+okay and with that I think we're ready are we ready 
+we are limited already 
+I'm totally lame so promising us right now offense nnj 
+I am doing my personal meaning 
+I kn 
+okay 
+so 
+picture this 
+there you are 
+wasting time 
+scrolling through Facebook 
+watching other people's lives get better and better than your soul cool they've amazing vacation photos yet as you do all their babies are adorable press nnhs picky about maybe 
+I know I know 
+%HESITATION it was their job announcements 
+and you're like a dog 
+and then whatever right so then you oppose that really stings that post that beyond all these other things is a real punch in the gut 
+and that my friends 
+is the spoiler on her us I know dated 
+people who post less people are the worst there is like do I want to be friends with you wires even on my feet right now exactly their big douchebags we can just come out and said we can say we can expect a missile 
+yeah we said everything else thirties 
+I mean they ruin Netflix binge watching for the rest of us 
+or every major movie released or at major sporting events or whatever 
+like what's the point of life after that like why like I know I want to know what was happening on how the guards amount nto I know 
+because just because you like friend from sixth grade 
+it's hash tag class 
+capability 
+beautiful goddam family 
+have time to watch TV all the time for every show in its entirety that we can that it gets posted a Netflix it doesn't mean the rest of us when it now what happens in advance 
+just because I know there's a date assigned subplot and house cut the line I want no coca one 
+don't say it 
+I'm just guessing did fair this is not really a spoiler it's really not all that doesn't give it away 
+it is for me and I don't know whether there's a part of it's not online I just wanted you to feel bad alright I thought guilty for just a second there is actually I don't know we said I'd love to hear back from this I don't know why we haven't talked about this yet on the show there is a data signed up because we don't give away spoilers the fact that there is one is Hardenberg distance from the season from house of cards we can all talk about it because I would really like to hear people's opinion there's one scene that has some underwear and and some dancing and I would really like to hear what everybody thinks about 
+but the question is the question I'm going to ask if this is the point of the story what if things didn't have to be like this 
+like what if you hadn't seen Star Wars and you didn't want to know in advance that a certain someone was a certain other someone sister they really shouldn't be kissing 
+or or maybe a certain someone in a scary mask who might be able to choke people with his mind was actually another someone's father got another someone thought it would be super happy at all they be like dnmt 
+way it's a when you you just because you say the words someone that doesn't mean you're not giving it a ha ha ha ha ha ha 
+maybe job with a high 
+but he had no 
+against her 
+totally everybody that 
+the cat the game now is to try and guess who in the new movie is the love child of Java the Hutt and princess Leia Husn 
+wouldn't that be a spoiler okay 
+the point is getting rid of the spoilers this is a job 
+for data science 
+now it all comes back 
+yeah so 
+Ruth toner 
+who's on the community team at twitch 
+but the tool called vanguard 
+and vanguard basically reads tumblr 
+checks for spoilers and then prevents you from seeing them 
+Mike dropped wow lividity asa I know 
+exactly how does it prevent you from seeing them well does it have people walking around like 
+stopping you've described before total it's a tool that deploys real human beings to your home or office if not artificial Intel 
+against 
+it's beyond artificial intelligence beyond its actual intelligence 
+it's in this predicament paladins because the they only use precogs so some momentum nnat of minority report and they put them in your place nnhs run about and they like freak out when you're about to see a study second edn around his little but before you visit a web page like three wooden balls roll down dnmt 
+yes this is what this tour vanguard does exactly all of this absolutely because you might think if you're not using precogs for minority report and your name isn't Tom Cruise how could such magic be possible 
+most people 
+mentioned Star Wars in the body of the post it turns out 
+and they might even use a spoilers hashtag because they're not hashtag unless your bags 
+from six grade they're good citizens of the internet who just want to talk about how shocked they were when Kyla ren killed 
+say well I'm just gonna clothes that would be a sport I love that would I know is I tiptoed right up to the ads 
+if you call them douchebags eat you are tempted yourself I know I know this is you know me you know me for long enough I like to be right on a knife edge something abuse back or not 
+wait real quickly so you know the people that were that use the spoilers hash tag okay unknown to the world can you please use that hashtag before we put it out again and hashtag this is really very authentic blessed 
+vannatter like dammit mn 
+you just put it right in the title dnmt 
+it's like your linkedin post that uses the new Star Wars is a metaphor for you know efficient meeting dnmt 
+yes but hashtag hashtag spoilers right at the top 
+%HESITATION that because you're right paid people don't actually follow those rules sometimes people even put this weather has taken their post at all so you're just like I know 
+creek 
+because now now you have to identify a post that isn't just about Star Wars but also might give something away about the plot with no context 
+and that's what Ruth did though with vanguard 
+back to Ruth and family she used nmsiis of natural language processing and machine learning techniques to create features that basically accurately identify a Star Wars spoiler posts 
+so 
+she if you're at a date a person you know that you can take a big bunch of tax and you can create some features from it that's what's called quote unquote features 
+and so she created some features like the most common words the top tags and then she use those features to train a machine learning model and presto 
+now 
+now you too can benefit from his hard work she had actually %HESITATION eyes you can dress up Baca's explaining how she did it how she built vanguard that you can get to and I think there's a Google chrome extensions you can go get the after yourself at vanguard dot X. Y. Z. and this is basically a long form shout out to Ruth thank you for your service 
+the community 
+and to humanity 
+I heard her 
+you know what I really like about this is that in order for her to actually build vanguard she really needed to train up you know model using machine learning to detect the 
+kind of posts 
+but that means that someone either her or some unlucky grad student perhaps 
+had to go through all of these posts unspoilt everything for themselves 
+because we like up yep that's a spoiler up that's not a spoiler chancellor it's like it's the hidden costs of doing data collection 
+I'm sitting there ruining TV 
+for yourself 
+for the next year are 
+you know what would I get Binhai goodies case for that 
+cloud factory you can just ruin it for all I care dnmt 
+sn within you know they're getting paid for it so that the country is like a sacrifice though I don't think it's ruining it it's like you know it's noble so noble cause 
+no because maybe a prompt people to watch the movie in advance thought I don't watch the new Star Wars so that I'm not affected by the spoilers 
+I don't know about me and maybe the movies will give like pre screenings to people who are going to prevent spoiling that what you're facing the Hobey also 
+that between I want to sign up like I'll be part of the Army Reserve of spoiler dnmt with with incredible the %HESITATION with with with apologies to everybody who's in the actual Army Reserve nnj 
+no 
+I had to I 
+to marginalize the important work that you're doing I'm the I think though then they could be great though because then you'll be the first person in your in your apartment complex to the first 
+to know that Kyla renders the love child job oughtn't but then all I did is I might attract 
+it might attract all the douche bags to do that and then they get a car I don't know because they get some kind of sick joy I don't think you know everything like I'm in the going to hate the Facebook Ahmanson theater and 
+it's like all the kids that were on for ten ten years ago they grew up and had babies and other this role rule ruined sport like Star Wars with our friends on Facebook 
+because they got all 
+sn dnmt 
+fallout okay %HESITATION alright so 
+Iraq that right up 
+I'm before going to the next or we're going to try something a little different this week and we know that a lot of you are programmers actually but as I'm sure Chris can attest %HESITATION sometimes data science PhDs cough armed they need a little help 
+it's making the transition from writing scripts are you know a model that mundus someday together whatever or anything that basically needs 
+acute once or twice sufficient for two more complete applications you might say bullet %HESITATION that's what my mentor my picture who are we talking about we talking about sunline not you someone who's had a certain someone who might 
+a little problem %HESITATION 
+that someone again if it is I know I know 
+I am so if you too are a character in Star Wars whose fate is being ruined by the internet %HESITATION etcetera if your programmer who I would like to get a little bit more experienced I'm writing software applications that are a little bit you know more battle hardened for the real world I'm we're thinking about having experienced programmers come on the show and equipped like five minute programming tips 
+so if you let us know if you're into this idea on Twitter at partially day or by email hello at partially derivative dot com so we know whether you want us to do more of it 
+%HESITATION and with that in mind here's Michael Kennedy the host of the amazing and very popular talk python to me podcast and the author of talk python training a fantastic new series of video courses for learning python yours Michael 
+eight out of ten and everyone out there it's great to be here yeah so this I hear you got some awesome cool I'm programming advice for us 
+I absolutely do we've been tossing out ideas on 
+what kind of programming 
+techniques and tips would be really good for data scientists and I think I have a really great one for you it's about this concept of generators Cortines an iterators and it's it's really good about sort of taking large data and processing it in a very efficient way abilities data processing pipelines 
+and we'll talk about that today 
+yeah what's really interesting about these %HESITATION generator methods in these coke routines as they have been around for quite awhile 
+didn't python since two thousand one dot at sea sharp out of them in two thousand five ecma script six that that's the new job script that's coming out this year is just adding basically copying the python style into the new version of Java script so there's a lot of languages that that use this technique 
+and the ideas you can create a method 
+and the method looks just like any other method takes arguments it returns values returns a collection that's really really important part return some kind of a sequence or a collection 
+and you write your code it typically what you might do with these types of methods 
+is it would create like a list or some kind of collection and you would do all the processing like yours but say you're trying to search or filter bunch of text for some kind of 
+value or or match or something right you go into that you're gonna go to the entire text file unity all the processing and each time you find a match or put into the list when you're totally done then you return from that method here's a list return list right that standard program right but it's the whole thing right now is how to shut the whole thing you collect the entire list everything that might possibly want and then you return it to whatever called the French 
+right you have a basic right Ireland acid thing just sitting there kind of in the machine's memory 
+yeah totally invited you all the computation tip before you even get the sort of knowledge of whether there's something in a sequence or not 
+but what if you want to go through some data set you know Michael I could just go with the first five that I think is really I you know whatever reason I'm looking for like houses that are nearby phones search all the houses that are nearby and try to buy a house maybe I'm willing to show five on a page anyway so let's stop there right through these generators let you take a different approach 
+and they're sort of this combination the concept of a generator and a co routine 
+and the first time people see this it's like mind blowing 
+and I think I do a lot of training and almost everyone I talk to 
+this doesn't really make words use of this concept and ideas this 
+instead of seeing criminalist and filled up with data and then return to list all at once all computed you can use these key words and the different 
+and apart on the keyword is yield and sometimes you'll see a variation knuckle deals from 
+so 
+what you do is you basically write the method as if you had the list 
+if you just delete the last and anytime you would 
+add an item to the list you instead say yield that item 
+and though runtime basically reinterprets this method to say okay it looks like you're sort of given up one item in returning sing yield but in fact it's 
+it's reinterpreting what you're writing and say okay what that means is we're gonna turn a sequence like a list that you can iterate on 
+and every time you say you'll do say here's an item in the list 
+now that sounds like the same type of thing with less typing but what happens is that's where this concept of a couple routine comes at 
+and so the way it works is you go through the execute method to get that first yields and then it immediately stopped turning them at that returns to the original color like you do know leaping from process that print out saved our database whatever 
+and then you loop again 
+it goes back into sort of resumes right where the less it left off comes back in does little more competition for the next element gives it back your cookies on it so it's kinda like this 
+out back and forth 
+running between the thing that's consuming the sequence in the things generating a sequence 
+and you can actually change these things together right I've got one thing that binds all the houses and I got another sort of generator that 
+soldiers the houses down farther and and you can sort of treat these data pipelines in a superficial way okay so that sounds cool like I'm I I get that okay you're going back and forth between the caller and the function that's iterating over my sequencer whatever 
+but but why why would I do it that way why are these Cortines better than just putting everything in a less than dealing with the whole list after habit 
+because it is like a certain sex is always wrong yeah 
+it does exactly it's more complicated from a conceptual perspective the code is actually cleaner but after you look at it like what the heck is going on here 
+so there's a couple of benefits and it really 
+really shines when basically two situations one computing any individual element of that sequence is computationally expensive 
+right 
+and 
+the other one is if it sort of memory intensive to compute all of them 
+so for example like let's suppose you're doing some scientific calculation you wanna start pulling those items out you're not totally sure when you're going to stop 
+right you as the person concealing the series right %HESITATION if maybe the deviation between the previous element and the next element is twenty I'd like to stop 
+processing is items but as the person implements the method that generates a sequence you know about that is like here's all the numbers or results that you're asking for 
+this allows the caller to sort of slowly consume them without paying any extra overhead so in my class that I just finished an online class forum private developers called python jump start by building ten apps I this example and it does are sort of 
+we got a text search recursively across directories 
+and it's originally written in the list style that we talked about and to run it it takes like four hundred megs 
+maybe fifteen seconds to process to search 
+two point two gigs of text 
+was that our hundred megs of member critics like it's actually consuming four hundred megabytes of the computer's resources 
+basically like real time reserve that's right yeah 
+absolutely real time resources because it goes to the whole directory tree of 
+continue to get the files can it grabs all elements in its stores analysts and when it finally gets all to gigs process go to very carefully here's the list and it has a hold all that for Emory right 
+and 
+we can change this like a change is the zeal return artists are just your keyword in and return 
+the the individual elements in basically 
+you don't change the code at all other than replacing a list out of hand with the yield and just delete the less right it operates the same way but instead of using four hundred Meg to do all this processing of memory that uses one Meg 
+well %HESITATION that's amazing I mean that's like the difference between actually being able to run something on your laptop in a larger example and not right but that's a that's a huge effort as you're absolutely 
+it's it's tremendous yeah and the thing is that's 
+just go into the whole sequence entirely what if we wanted to find just the first ten matches but we didn't know where they were right we could just in our sort of consumption Benko Oduya ten just stop when you stop pulling on these iterators these generator methods they stop computing and they're just died 
+so instead of taking fifteen seconds to do all the processing it might take 
+hundred milliseconds 
+but exactly the same code 
+and the consumer that uses your library gets to decide when they stopped not the producer 
+well that's pretty fantastic I mean that that that really is like armed 
+I mean I may be 
+on a one off example you might say like 
+if you're not sort of stretching the extent of the of the computer's memory even like what whatever like it's just a script I'm gonna run one time no big deal but I think this is a really important distinction between just writing a script once so it finishes and it's kind of been happy with that and actually writing an application something that has to run 
+you know maybe a variety of environments are and it's kind of a variety of circumstances many circumstances that we can't predict in advance and so making your code a little bit more resilient against well you know weird things that people do in the real world you know unexpected security absolutely finder application and 
+and it seems like it's a it's a really sort of straightforward way too out what stock echoed from being abused if that makes sense 
+yeah I don't really make sense and I think the thing to take home is it's actually less code to write it simpler right it's slightly harder to understand but once you get the Zen of it it's like okay this is no problem did a thing as it lets you build composable elements 
+so 
+each one of these little generators can take some input take a sequence and then do more processing return some kind of transformed or filtered or otherwise modified set of elements so that way you can create sort of chains of processing that do all kinds of different things you could wreak reuse them develop these pipelines I think that super relevant to their scientists 
+yeah absolutely I think I mean pretty much all of us every time we've done any kind of work on a data set and had this step through a series of transformations to make the data more usable or to maybe derive a feature that wasn't in the original data but we were 
+calculating 
+and I think having the 
+functions that were writing to do those transformations in a way that we can just grab and plug into new pipeline whenever we have today the process kind of piecemeal and one by one her you know like putting a puzzle together I think that you can save a ton of time 
+so that's fantastic but that really is that it's it's feels cool like writing real applications now not just you know that not just little scripts 
+yeah I entirely agree with that and actually put together our document you can share it's got some code examples and in there it has sort of the traditional the style called in block method calls where generates a feminazi sequence 
+and it returns you to specify limit because if you just give me all the numbers and things infinite sequence it would run out of memory trying to add it to the listener would never finish 
+flip that to the generator style with the yield keyword and it's 
+trivial it's like our five or six lines of code to write the infinite feminazi sequence in the most efficient way possible 
+it's awesome that super close and check out Jazmin so where can people learn more about these awesome programming tips because your this is this is kind of it was a big thing that you're doing I mean probably people are familiar with your podcast talk by things to me but you're also kind of verging into this type of instruction for the world at large American 
+yeah absolutely so last month I just launched a an online course a video course called python jump start by building ten apps and one of the ops we build really two of them actually they build on each other are all about this type of processing so check that out it training dot talk I found out of him if at some schools you 
+thank you Michael for being on the show I'm Michael was also kind enough to provide some notes that go along with the generator methods he was describing that we will include in the blog post that goes with this episode 
+so go check that out go check out talk python training and now let's get back to the news I think of it it's your story yes it's my story I am so excited okay I love the story it connects most of my favorite things together our data science and sci fi feature ism futuristic myth I don't know whatever that word yeah it's awesome I have is that neither 
+there's so many fascinating questions about the story that it that I kind of wish that was back in college like wasting hours my life waxing poetic about the meaning and value of our nd sitting on like college steps you know like late at night 
+remind us is remember remember Jonathan 
+well I do because that's exactly what I did in college that I was my I know not what dnmt I know I never had any of those days I was just stuck in some smelly underground dungeon of a lab doing Omar dnmt like 
+none of this is just my leg dream fantasy of what college to be like them still totally jealous of your art schooling while I had to slap it with the rest of these rule followers to please my parents and maintain maintain my family honor yeah well I I found the meaning of life through self expression and collaboration so you know near 
+yeah that's exactly what I'm doing 
+it was it was like a scene in rent that actually this is this is no joke we went there was a bar where I went to school because it was in England and so you could put bars on campus because everybody was eighteen and and and I got some showing off even that's amazing so yeah even better that was that that wasn't the cabal you add the school where I went %HESITATION but because there were so many people who were in the musical theater I am not joking sometimes people would break out spontaneously into song and 
+I thought it was because you know you watch a movie and you're like that would net why did they break out into song and dance this 
+Dick illus just stop stop with this musical theater but there are places there are places where this occurs dnmt men if there was anything like that in my schooling I would I don't think it would be here I was probably still be there flatline old check that never laughed 
+right just try to help out because you know yeah dnmt 
+alright back in the story okay ready get get get get 
+a computer 
+just painted a brand new Rembrandt 
+with such perfection that if Rembrandt came back to life and took a look he wouldn't be able to tell the difference 
+in his pain 
+computers 
+well what we would do what did the way hold on hold except except because Rembrandt that no it hadn't painted it right member will be looking at it with a quick yeah I didn't do that like bright you would think if it is you know pains right right yeah okay it's a new painting yeah it's called the next Rembrandt and it's a new painting of a new subject it took eighteen months and a team of art historians data scientists and software developers to train a machine that studied three hundred at Rembrandt paintings 
+and collected loads of data from them and develop algorithms that would be able to draw each of the elements that were common themes in Rembrandt's work 
+so the final painting is a portrait of an imagined man imagined by the computer I guess Donald exact 
+yeah it does look ads and I are like 
+you know and and it was I guess painted slash printed by a three D. printer so you actually layered heats just the way that Rembrandt what Blair paint it had over thirty layers of paint based ink that match the layers of paint that gave his work death in perspective 
+while my mind easily blown right now I am not once I know 
+that's amazing amazing it's amazing how little actual three D. paint I mean three D. is somewhere in this context but it is like eat it like tactile right like yeah yeah it's like a real it's it's it's a real painting and it was a poor it's a portrait of a seventeenth century man and it is actually really beautiful I don't know if you're familiar with the way that 
+works with light in his paintings that this computer nailed it 
+like 
+superdelegate so 
+like who 
+I guess now we can exist forever have amazing paintings from great artists 
+and I could never really be bummed out if way away that's not that's not where I was going to decline that the big one dnmt was and nobody will ever be said 
+it's almost Unna are lightweight going into this debate that I can't really 
+defense behind nt 
+%HESITATION but yeah this this brings up tons of questions that I think we should discuss care we should be the drinking absinthe of smoking handle cigarettes while we talk in French anxious for this story because that's kind of how I feel that you know 
+olives are art school would be like 
+I was like that we all talk in French accents 
+you had to drink absinthe like tons of it we didn't drink absinthe because beer is pretty plentiful in England but we did handle cigarettes that was totally true wow anatomies old man it was cool I mean it felt cool at the beginning and after awhile you kind of like this actually feels gross and dirty 
+also also PSA I am no longer a smoker I didn kids don't smoke exit hundred incidences where Zack and Kelly turn to the camera like but seriously 
+spoilers 
+one if you aren't old enough to have seen say back on the nineties there's another suggesting things to many drugs freaks out and they have to do a PSA afterwards that's the thing to which I'm referring and that's what I'm doing now don't smoke 
+okay Rembrandt nnhs market attend that we have we have absent with beer and then like used his regular American 
+it's a hard question 
+so while I'm here you think who gets to claim to be the artist of this new painting 
+computer 
+the programmers and the historians and the data scientists that built the software or would you consider Rembrandt still really be the artist because it is it does come from 
+technique it's not like it 
+I know it's like the computer made up that 
+mt 
+on I know this is this is kind of a this is a profound question I think like I do maybe maybe surprisingly profound 
+no it's not profound the computer programmer Gennaro didn't at all 
+if you've made the software that makes the painting then won the computer doesn't get it because the computers get anything that's how computers work I guess songs I made the damn thing 
+and then there's the artists 
+well no because like your it's inspired by Rembrandt but it's not a 
+Rembrandt like I could be a tell inspired by rem focuses on it it's just you 
+it's like 
+following okay thought about it this way 
+they go out of his way it's like the 
+programmers basically made very advanced 
+he 
+and the team prices are like basically looking at analyzing Rembrandt's workmanlike 
+taking his absence of his work and eating 
+though there's any absence of anybody in this it's gotta remember 
+really funny kind of like saying it is an economic saying like so so Rembrandt didn't exist in a vacuum right like he was inspired by all of the other painters of his era 
+and then other people were inspired by Rembrandt and they meet work that is similar in style to his and then you know forces he became popular that that that continued 
+and so I mean is he really 
+take it should he be credited for their work like people who were inspired by his style I mean I couldn't we could we really say that that the computer was a student of Rembrandt and now as well its own words nnat design at the computer maybe I mean because and I'd like to tell tell that 
+with and 
+I don't give away any spoilers here but I don't know if you've seen X. Makina I think it's a I think it's a poor choice not to give computers credit where credit is due another going to take I think because the venture that strategy is going to come back 
+right maybe maybe to not turn out very well for the human so I'm not I don't get any more details but I think that if if we can get in the habit of giving computers credit for things and making them feel good about it I think it will be better for our relation we wouldn't be going anywhere I three 
+so I don't fear where do you think nnhs 
+I for one welcome our Rembrandt painting overlords 
+nnova question number two eyes you retrain computers to remake are from all the greatest artists in the world then we can all have Picassos like forever and we can have like new unique ones and maybe they won't be worth as much as like the riyal Picasso's but who cares rate like you have one that no one ever 
+no one else has and I mean people make fake diamonds out of their dead relatives and wear them and how is that even related 
+well I think people they will be a market for peace for this type of art where they're like you know it's not really 
+but it's it's it's it's a fake diamond it's not even a real I mean it is a real diamond anyway that's a whole different 
+I think we've got this weird lands in the how you 
+or fiance accusing wedding ring 
+got dnmt no no the the white what I'm trying to get at is like people don't mind fake things 
+but it's not I think it's a real 
+inspired by Rembrandt painting that has nothing to do with interpret it sought of Rembrandt paintings instead odors painting I've totally I would love love to like 
+I don't know find a style of painting that I would like that maybe possibly associated with particular painter give a photo wouldn't send them a photo and then I get back this awesome three D. painting of like you know me looking like you know one of those like very general Alexander photo 
+one 
+meaning of that wasn't part of any of this speak out I don't like the computer decide when the computer chooses 
+what to paint based off of that are no that's less I'm like I don't wanna random I don't mean to be painting out there nd one obtaining of me I was the whole reason for Hardenbergh idolized as a god nonna that we're going to walk into your entryway in your house with a 
+behind 
+and if you like this massive photo if you looking into the death 
+but when you're in the album household it's dear leader away by Wrenn but whatever 
+but I went back in time dnmt 
+I mean okay that's fine against each of them we I don't know that I would do that I think you'd be cool to dissolve the them computers like the side and they can give me things because then we would have to see the exact same like damn Bango starry night in every dorm room coffee shop thing 
+and each person can have there and you know very own unique banged out I'm totally down Sonya 
+yeah I am a little bit worried about all the people who currently produce coffee shop art though I mean where is that going to go that is the losing party in this one 
+halfway through the great thing we didn off-again they have to compete with like the greats 
+this is the end of the artistic classes that are doing singing in pubs in England right now because we're replacing you with robots and computers and yeah yeah I hate it candidate out the stuff if you don't have the chance to be one of the artist 
+in a generation 
+three than frankly you can kiss my **** because we have an algorithm nnat yeah I thought it was an awesome project was the brainchild of of of course an ad agency J. Walter Thompson for I. Angie thank you can watch a really cool short video on this project on next Rembrandt dot com 
+people are doing all sorts of amazing things with deep learning and neural networks to develop algorithms that that make artistic images of hypersexual quality which basically means machines are being trained to produce images that could be called a fine art like 
+completely original ones 
+this isn't this is a different acknowledge it's not the same as training the computers on existing 
+%HESITATION it's coming it's got its cool I want them to I want somebody to train a computer to work in the style of Damien Hirst 
+I mean I hope in that it left side art school coming back but in the so in the nineties he was the guy that was like cutting apart cows 
+and I could cut a cow and half me put each half in like an aquarium tank of formaldehyde and then you could walk in the middle of it and it would be in like fancy modern this is exactly how the robot apocalypse happens it's not some fire is made by the military because some art students like you know what I'm doing with a program this thing to follow that style and then all of a sudden it's like look at all these things I can split apart a turn and artistic dnmt murdering people nnu like robot why are you doing it like for my heart you fish in the set about it 
+all those great doesn't know I am loved this story to get one 
+alright my story is is cooler but not not as happy as her story I feel like yours has a lot of lightning spot between doesn't okay 
+so this story come from Eric Bernhardt's them which I'm not sure if I'm saying that right will discover that Eric burdensome 
+I he is a data scientist at better and in New York and as I'm sure all the new Yorkers are listening to this no atom all new Yorkers are accessed with the MTA which is the city subway line just exactly at I think everything about Italy like there's you know like they know every single proudly noble the times it's like 
+a badge of honor that they don't like the in 
+existem 
+okay 
+so because New York is a is an awesome city and at because it sort of has this part of the open government the idea of open data and releasing data and actually has an API which is just sort of a pipeline of data that you can plug into which gives you the current arrival times 
+of all the subway train sets of departure times an arrival times 
+so what area did is he actually I connected to this API and just started downloading current arrival time through the subway trains 
+and then he kind of forgot about it like he's doing whatever I can always includes something else you forgot about rock incomes that months later and he actually has four gigabytes of data on on subway arrival times from a bunch of different train lines in New York which is cool in itself right because I know that a lot of listeners to this podcast right now are thinking colic magical the cool stuff I could do with that record like plot arrival times like it like you know figure out delays neck and stuff 
+and it is like a bit of that is you know in in this blog post but I see his main question is much more specific and very familiar to anyone who is commuted daily to work 
+%HESITATION using public transportation 
+okay so imagine this ogre it's out of work there is a thing they froze like I've I told over the net like I heard that like I just heard a talk by %HESITATION this guy called John Akers who works for a company called Silicon Valley to science and they did the same thing but they were literally doing just that by predicting delays and arrival times 
+using like I don't like sound waves of trains or something nnhs and it OP terroristic it is it is that he's actually gonna talk I was at the event when he was talking in his go hit like he's going to give a little overview of it on the show which we call gravity or doing it later but like but what else what else would you want to know ID say this is that this is the nice little point okay after work you're tired you're hungry and you just wanna go home at night Watson ethics 
+so you walk over to the train platform and no trains arrived yet and the sign that you know that's displaying this the train status is like doesn't really display your trainer thing like that so you're waiting and you're waiting and you're waiting and then this is point that everyone has thought about where you're like you know what 
+you used to ski cap like that is always a thought to go through I haven't like I do well yeah and my current visual nnst train station black and figure out another way of getting home or should I continue to wait because I pleaded so long that like it must be right around them like you right on the corner that everyone has as I thought every single time and you can like start walking towards the exit like I am going to I'm gonna make check and see if 
+but like 
+our nnat I I need somebody leaves and it just looking 
+that the anxiety by a factor of yeah well he's actually on the urine all 
+you're all in on it together like suddenly you and in the other passengers on that dnmt note that what do they know that you don't write down things like checking their phones I go maybe maybe the app tells the time the train to the southward doesn't maybe maybe apps yeah we've all lived there they have insider knowledge 
+so I never lived in New York but I've commuted by train you know in DC in Miami and they were just got them a lot a lot a lot of drinking 
+okay 
+and I can tell you that like this is probably the most frustrating feeling of ever ever had like you just you don't know what to do right you've invested so much time on this platform like do you abandon it do you just like you waiting which unseeded 
+and this is the question that he was trying to ask 
+so what Eric was going for was to try to figure out two questions based on this data 
+how much longer should you expect to wait 
+given that you've been waiting for a certain amount of time 
+and at what point should you just give up and figure out another wave going home 
+and he has to interesting findings from this 
+and this first one 
+this personal stuff okay 
+so 
+the longer you end up waiting for a train 
+according to his data the longer you will have to continue to wait 
+which is weird also I'm going I will unpack this for a second existential crisis I know it does me like that I feel like I'm watching a play right now mn early waiting for Godot man this is the most pretentious apne apne into Damien Hirst 
+Sam back at home I think that the same line but whatever it's pretentious we should be ashamed of ourselves 
+okay I hate nbae I will magazine and you're the one with the PhD up the three of us that should be pretentious it should be you know like I was throwing away some people think I'm cool you guys of the one after that washing it out there everyone hates you yeah that's because we're insecure that's what it is nnj 
+through my measly undergrad nt invent ways this 
+smart well I think we can we've got up to the I I started with a good point and I we got up okay here we go alright but I think that after the Exxon longer you've waited for 
+the longer you will have to wait saving up 
+according to Eric's data 
+if you have waited probably say fifteen minutes for a train and it still hasn't come 
+you will probably end up having to wait another eight minutes for the 
+so you've waited fifteen you probably have to wait eight more 
+however 
+if after those eight minutes the train still hasn't arrived see waited fifteen minutes and then eight minutes 
+you actually have to wait for another twelve minutes 
+which is our soul crushing five because that means that like the longer you're waiting it's like how this is like the delay must take for ever in our eggs after you've been waiting for fifteen minutes you gotta keep on going like it's just going to take it it means that if you waited for an and an unusually long period of time you're going to have to continue to pay for more unusually long period time which is sad which is a very sad idea and probably really soul crushing if you're like sitting on the platform being like out there dammit 
+what is that what is the cut off like after me I tend to feel after like thirty seconds that we did an unusually hot manner like you ever get on the train you 
+so I think he does some some basic math and I see figures out a 
+part of the equation that you would need to figure out whether or not you should 
+it quit 
+so okay 
+say you don't want to weigh more than thirty minutes for a train 
+okay 
+that means according to according to his data 
+after eleven minutes 
+you should just give up and take attack at cab 
+tag notch or something dnmt give up and tag the subway Chris was here in my black braid pain and its stock and I left 
+don't wait for Godot you pretentious on 
+alright because if you don't have eleven minutes or if you don't leave for thirty minutes they got me all messed up as number the rear 
+I think if you about thirty minutes eleven minutes you're like you're like that guy in a beautiful mind 
+right now you're like a reason that you can't wait for the train is because the spies tell you not only for twelve minutes a lot of jobs thirty minutes fifty seven 
+a lot of men 
+I think I like John judge Wapner is that kind of where we're going with this government our enemy 
+I who's too many too many pop culture references that nobody's going to understand ha ha ha ha 
+no don't match them up done that's amazing Nash equilibrium monitors and well yeah I know John asked him at the wedding that walking without without rain and it's probably a little bit son asked of course every notion alright wait so if you waited for thirteen or you only one way for thirty minutes and he waited for eleven minutes 
+you should leave because the time that they 
+you have to wait longer than the remaining minutes 
+before the train wreck that's his that's his argument based on his data 
+which there's parts that that he sort of left out we'll you know like anyone is our thinking about this 
+has following missiles following this in their head would realize you have to think about the time it takes you to actually get a cab or get a new pair in the time it takes to get home and all the other parts of your commute these just taking like one part of that equation but it's an interesting idea that you know what like you should actually say okay all the time that I've been waiting up to now is sunk costs and I should not think that because I've waited for twelve minutes I'm set it's like nope you were waiting for twelve minutes 
+you should decide unspoken what you're going to do it I don't wait another twelve minutes 
+decide if it's worth while the you to ditch it 
+because it turns out that you might hinting up waiting on the platform for a long long time 
+and we will link to Eric's blog post which actually has that the curve and everything like he's he's my little outside like you see the curve for every single time and see the car for you 
+so the cut off care for different different train lines %HESITATION it's cool it's super awesome it's a little bit Matthey his lot of like you know questions in there but that's not that's not too bad am I suggest you take it out because it it you know if you end up waiting on a train platform I think you have time to sit and read through dnmt like us before you decide to get into her which is 
+well you know what I wonder do you know this is just if you are one person and you're doing this like just yourself because I think that if you're with any other person then a lot of time will be wasted in the whole dynamics will be thrown off is when you go Chicago area she way and then you like starts the whole conversation they're like oh yeah let's just let's just wait a little bit many of two people who have like different threshold of what two long 
+so your point is a psychology component to this 
+yeah I could see that I think you know to be the person is like asking over and over again like Hey Hey so we go 
+sugar yeah her husband after 
+it seems to say I really wanna say once they like when do I time bastn 
+yeah 
+yeah it's at nine minutes to give everybody else two minutes the feel anxious about with an aficionado and intellect and right back in the 
+get out 
+Larry no immobile and I like it sneaks another were in on it does that ruin it like now as soon we went wherever in a group and you go Hey guys you think we should keep waiting for the train of like Ono I know what's happening like dnmt apparently vehicle if we're also delivery platform after thirty seconds but we like I was talking about as we're going going already literally were outside is waiting 
+you you only by metro card so that you can like walk in and out of the trance dnmt 
+I mean sometimes the train there and then you run and you get in your car sifts you'll have to Alkan's here you walk into the trades they said and you run for the trade or it's too late right you never guessed train right 
+right I think I save more time in the overall that with that strategy 
+it is it is except for those 
+stations that are like where the platform is like down in the bowels of the train and the like I like a look there's an el stop in your like cool %HESITATION except Alsop was like beneath that Affan beneath the and you are anything and so you're like seven stories down and then you get there and there's like one other dude and it's like next train forty seven minutes and you're like I said I think 
+actually I really doubt that al has those like by minute wait times I bet it just says like next train made 
+sn depends 
+boom okay 
+I'm 
+so we have an outline of this week our our segment that's at least a two standard deviations away from the main 
+zinc 
+yeah I you know what you know actually that's not really the best way to to find out liars dnmt really good job and then they actually does just you know just you know yes this other ways 
+there's behind him I mean I thought 
+sorry about shorthand but it's not 
+so if you are for the job was Martha hits it's worth it because the other one is actually because like you quantiles and I'd this too much there be different too much out of money the IQ are 
+HitFix nnat well and IQ are like that a person who's like well the reason the joke is funny if you understand 
+you know linear algebra 
+but it doesn't get 
+it's her whole all of that aside 
+this week we hear from Adam Smith one of the founders of kite I'm a relatively new AI powered pair programming at the just for python developers so heads up we actually recorded this just before kite was released arm and then I didn't have time to put into the show because we didn't record a show for awhile %HESITATION so it's already out so if you're talking about when it comes out it's going to be so great I'm just know that that's already happened and you can 
+I think you've got a kite that comic I thought I or whatever it is willing to it on the website on and check it out Spiegel 
+Hey I don't think we're going on the show 
+yeah thanks for having me Natalie so can 
+give us give us the lowdown what's going on with Kate 
+yes so we're launching a new product that day %HESITATION the real excited about has been working on for awhile %HESITATION you know at the front not the most fundamental shift that were making his canteen programming environments to to the cloud and in real time 
+%HESITATION so essentially we felt that stops after that watches as you're writing code %HESITATION regardless of editor and will plug you into information and and a community %HESITATION senator round whatever doing at the moment 
+so if you're %HESITATION you know using an API will show you documentation will show you how I caught examples %HESITATION we can also detect %HESITATION certain errors in your code as soon as you make them and suggest fixes and %HESITATION yeah so it's kind of this co pilot %HESITATION %HESITATION for programmers or as we also like to call it like an artificial pair programming 
+it's kind of amazing so like as I'm as I'm going through %HESITATION you know I'm writing a program and I I like I sat finger something %HESITATION and I've you know called the wrong method or you know of call the method on and %HESITATION a class that actually doesn't exist 
+but that is that the that the sort of thing that you guys would catch in the what happens when you when you notice it is it just like a normal IDE with a little like you know redline of mistake undertaxed or or what what happens 
+yeah so this is we detect a mistake like that will actually %HESITATION give you %HESITATION and show you a sex socio disappear with like this is the change we suggest you make and then we just give you one click a button to 
+by that fixed your code 
+and and then how do you guys actually know all that about the packages that I am consuming like how how is it that you have that in for 
+and right there at my fingertips that's pretty amazing 
+yeah so what was done on our back and is built a a map of everything in the python world %HESITATION so is basically is imported %HESITATION thousands of packages off of pipeline on the back and %HESITATION %HESITATION and still pull them into docker containers and then walks the %HESITATION entire namespace and entire hierarchy to introspective %HESITATION every object %HESITATION inside that package and then we cross reference out against all the code on get hub so that we know about the popularity of route at a different %HESITATION API's 
+so if you make a %HESITATION typo %HESITATION you know if there may be two different possible things you intended to type but more often than not one will be you know a hundred times more popular than the other and so we can make a pretty strong protection about %HESITATION what you're looking for %HESITATION whether it's you know you made a typo or even just %HESITATION with a really smooth completions experience as you're writing code 
+that's 
+already kind of awesome it's like all of the best things that I would want out of an ID E. without though like horrible heavyweight disaster of actually trying to use a full featured had he 
+yeah so and what's what's next minutes on the possibilities for this kind of thing this is just your first release right 
+yeah so this is the first version and %HESITATION we're just getting started so you know we've been working on this for a year and a half now and a lot of the time it's been spent building Canada infrastructural layers of integrating with different editors and having %HESITATION the kite up %HESITATION and doing this kind of code introspection and all these other things and so you know we're really excited to add to get this out there %HESITATION and you know we're excited to enter it on on the feature set from fit based on feedback and we're also excited to get %HESITATION people plugged into the community so there are parts of the product where %HESITATION you can leave notes for other Kate users %HESITATION different API's %HESITATION and you know we're excited to %HESITATION kind of scale up the the future of programming from here 
+and I'm sure that a lot of our listeners are python programmers because you know python is the best language in the universe 
+so how could people how can the how can people get involved 
+yeah so I just go to Kate dot com KITV dot com and %HESITATION you can check out a demo video %HESITATION that will be launched on the homepage today and %HESITATION ticket you can sign up with their email address and %HESITATION will be %HESITATION sending out you know invites %HESITATION over the coming weeks 
+well that's awesome well thanks man for being on the show and thanks for giving anybody a heads up about it I'm sure will lot will sense of people your way and I'm excited to try it out myself 
+that sounds great listen to an invite thanks Jonathan alright things out of 
+nnat all rights 
+thanks Adam for the heads up about kites 
+and that is all we have 
+huge thanks to Michael first programming tips 
+%HESITATION enforced cute things the cloud factory go check them out cloud factory dot com slash partially it's ten percent do the name a who back next week in the meantime you can follow us at partially de you can follow bid at bed underscore spend the night Chris at Chris Alvin and of course you can follow me at John at the Morgan 
+you can keep tabs on properly our analytics platform for software developers an all around amazing good looking people act toppling dot com thanks everybody have a great week 
+and nbsp 
+and nbsp 
+and nbsp 
+and nbsp 
+and nbsp 
