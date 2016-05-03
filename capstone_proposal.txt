@@ -1,0 +1,20 @@
+What is the problem you want to solve?
+    
+    - I would like to provide a solution for podcast listeners to be able to find other recommended podcasts based on their preferences.
+
+Who is your client and why do they care about this problem?
+    
+    - My client is podcast listeners who are looking for an opportunity to find similar podcasts. (@Tony I'd like to talk to you about this)
+
+What data are you going to use for this? How will you acquire that data?
+    
+    - I am going to download seasons of podcasts through the XML files that they put on itunes (I found a way to retrieve them) store them as MP3's and then convert them to .wav files. I am also going to download as much meta data as I can find (all the data provided in the XML file) and I'd like find the reviews on itunes and store them as well. I'm going to transcribe each of the podcasts (number of podcasts to be determined) through either Watson Text to Speech API (which I have a working model at https://github.com/sheldonsmickley/springboard_capstone/blob/recommendation_engine/podcast/test_translate.py ) or taking a longer road using CMUSphinx: http://cmusphinx.sourceforge.net/wiki/tutorialconcepts. I'd like to evaluate both processes, as I have a strong feeling that Watson but costly and CMUSphinx will be cheaper.
+
+In brief, outline your approach to solving this problem (knowing that this might change later).
+
+    - Scrape and download seasons of podcasts and store locally (possibly store in AWS). Transcribe and create dataset. Use NLTK, tokenize, remove stemwords, capitilazation (basic munging). Engineer additional features. Manually create a training set? Test models (Classification Models)
+
+What are your deliverables? Typically, this would include code, along with a paper and/or a slide deck.
+  
+    - Deliverables include working web application, code (via github repository) and either paper or blog post.
+
