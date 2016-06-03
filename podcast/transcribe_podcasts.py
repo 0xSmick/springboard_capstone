@@ -10,7 +10,6 @@ import glob
 from math import ceil
 import os
 import json
-import requests
 import csv
 import sys
 import speech_recognition as sr
@@ -55,14 +54,27 @@ def transcribe_mp3(AUDIO_FILENAME, AUDIO_SEGMENT_SECONDS):
     
     file = open(output_file_name,'w')
     file.write(transcription)
-    file.close()    
-    
-for dirName, subdirList, fileList in os.walk(os.getcwd()):
-    os.chdir(dirName)
-    for fname in fileList:
-        if '.mp3' in fname:
-            print 'beginning transcription: ',fname
-            transcribe_mp3(fname, 300)
-            print 'transcription complete: ',fname
-        else:
-            print 'false'
+    file.close()
+
+
+def transcribe_working_directory(working_directory):
+    for dirName, subdirList, fileList in os.walk(working_directory):
+        os.chdir(dirName)
+        for fname in fileList:
+            if '.mp3' in fname:
+                print 'beginning transcription: ',fname
+                transcribe_mp3(fname, 300)
+                print 'transcription complete: ',fname
+            else:
+                print 'false', fname
+
+def runInParallel(*fns):
+  proc = []
+  for fn in fns:
+    p = Process(target=fn)
+    p.start()
+    proc.append(p)
+  for p in proc:
+    p.join()
+
+runInParallel(transcribe_working_directory('/home/sheldon/podcasts/podcasts/group1'), transcribe_working_directory('/home/sheldon/podcasts/podcasts/group2'))
