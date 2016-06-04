@@ -67,7 +67,7 @@ def transcribe_working_directory(working_directory):
                 print 'transcription complete: ',fname
             else:
                 print 'false', fname
-
+'''
 def runInParallel(*fns):
   proc = []
   for fn in fns:
@@ -78,3 +78,6 @@ def runInParallel(*fns):
     p.join()
 
 runInParallel(transcribe_working_directory('/home/sheldon/podcasts/podcasts/group1'), transcribe_working_directory('/home/sheldon/podcasts/podcasts/group2'))
+'''
+
+transcribe_working_directory('/home/sheldon/podcasts/podcasts/group1')
