@@ -80,4 +80,9 @@ def runInParallel(*fns):
 runInParallel(transcribe_working_directory('/home/sheldon/podcasts/podcasts/group1'), transcribe_working_directory('/home/sheldon/podcasts/podcasts/group2'))
 '''
 
-transcribe_working_directory('/home/sheldon/podcasts/podcasts/group1')
+files = os.listdir(os.curdir)
+for file in files:
+    if '.mp3' in file:
+        transcribe_mp3(file)
+        
+
