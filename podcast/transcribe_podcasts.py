@@ -15,6 +15,9 @@ import sys
 import speech_recognition as sr
 r = sr.Recognizer()
 
+directory = sys.argv[1]
+
+os.chdir(directory)
 
 def transcribe_mp3(AUDIO_FILENAME, AUDIO_SEGMENT_SECONDS):
     output_file_name = "{}_translation.txt".format(AUDIO_FILENAME)
@@ -84,5 +87,5 @@ files = os.listdir(os.curdir)
 for file in files:
     if '.mp3' in file:
         transcribe_mp3(file)
-        
+
 
