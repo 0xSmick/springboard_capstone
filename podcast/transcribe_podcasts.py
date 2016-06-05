@@ -4,8 +4,6 @@ Created on Fri May 27 14:55:33 2016
 
 @author: sheldon
 """
-
-from pydub import AudioSegment
 import glob
 from math import ceil
 import os
