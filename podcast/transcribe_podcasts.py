@@ -66,7 +66,7 @@ def transcribe_working_directory(working_directory):
         for fname in fileList:
             if '.mp3' in fname:
                 print 'beginning transcription: ',fname
-                transcribe_mp3(fname, 300)
+                transcribe_mp3(fname, 1000)
                 print 'transcription complete: ',fname
             else:
                 print 'false', fname
@@ -86,6 +86,6 @@ runInParallel(transcribe_working_directory('/home/sheldon/podcasts/podcasts/grou
 files = os.listdir(os.curdir)
 for file in files:
     if '.mp3' in file:
-        transcribe_mp3(file)
+        transcribe_mp3(file,1000)
 
 
