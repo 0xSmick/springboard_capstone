@@ -1,0 +1,33 @@
+{% extends "template.html" %}
+{% block content %}
+	<h2>Email Manager</h2>
+  <p><a href="/logout">Logout</a></p>
+  <p><a href="/new_company">New Company</a></p>
+    
+    <h3>Add Email to existing entry</h3>
+    <form action="{{ url_for('add') }}" method="post" class="add">
+      <label><strong>Existing Company</strong></label>
+      <select name="existing_company">
+      {% for i in entries %}
+        <option value="{{ i.company_name }}">{{ i.company_name }}</option>
+      {% endfor %}
+      </select><br/>
+      <label><strong>Email</strong></label>
+      <input name="email" type="text"><br/>
+      <input class="button" type="submit" value="Save">
+    </form>
+  <br/>
+  <br/>
+  <h3>DB Entries</h3>
+  {% for comp in companies %} 
+    </br></br><strong>Company Name:</strong> {{ comp[0] }}
+    {% for i in entries %}
+      {% if comp[0].lower() in i['email'] %} </br>
+    <strong>Email:</strong> {{ i['email'] }} 
+    
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+
+{% endblock %}
+

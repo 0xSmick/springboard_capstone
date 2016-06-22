@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<title>Podly (Working Title)</title>
+	</head>
+	<body>
+		<h1>Hello, please select a podcast</h1>
+
+		<div>
+		{% for podcast in data %}
+			<p>{{ "{}: {}".format(podcast.index,podcast.episode) }}</p>
+		{% endfor %}
+		</div>
+
+	</body>
+</html>

@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<title>{{original_query}}</title>
+	</head>
+	<body>
+		<h1>{{"Related Podcasts to: {}".format(original_query)}}</h1>
+
+		<div>
+		{% for podcast in data %}
+			<p>{{ "{}".format(podcast) }}</p>
+		{% endfor %}
+		</div>
+
+	</body>
+</html>
