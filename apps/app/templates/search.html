@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+<html>
+	<head>
+		<title>Search for podcast content</title>
+	</head>
+	<body>
+		<input class="form-control" name="search" placeholder="Search Here" autocomplete="off" autofocus="autofocus" type="text" action="{{ url_for('search') }}">

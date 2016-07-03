@@ -1,3 +1,5 @@
+{% extends "base.html" %}
+{% block content %}
 <html>
 	<head>
 		<title>Podly (Working Title)</title>
@@ -8,8 +10,7 @@
 		<div>
 		{% for podcast in data %}
 			<p>{{ "{}: {}".format(podcast.index,podcast.episode) }}</p>
+			<a href="/related_podcasts/{{podcast.index}}">view podcast</a>
 		{% endfor %}
 		</div>
-
-	</body>
-</html>
+{% endblock %}

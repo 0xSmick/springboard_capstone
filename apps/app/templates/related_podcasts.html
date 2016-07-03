@@ -1,3 +1,5 @@
+{% extends "base.html" %}
+{% block content %}
 <html>
 	<head>
 		<title>{{original_title}}</title>
@@ -10,6 +12,4 @@
 			<p>{{ "{}".format(podcast) }}</p>
 		{% endfor %}
 		</div>
-
-	</body>
-</html>
+{% endblock %}

@@ -1,3 +1,4 @@
+from app import app
 from flask import Flask, render_template, request, session, flash, redirect, url_for, g
 import pandas as pd
 import numpy as np
@@ -13,16 +14,8 @@ from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import TfidfVectorizer
 from collections import Counter
 from sklearn.metrics.pairwise import linear_kernel
+from .forms import LoginForm
 import sqlite3
-
-app = Flask(__name__)
-
-#config
-DATABASE = '/Users/sheldon/podcasts/test.db'
-USERNAME = "admin"
-PASSWORD = "admin"
-
-app = Flask(__name__)
 
 def connect_db():
 	return sqlite3.connect('/Users/sheldon/podcasts/test.db')
@@ -40,12 +33,32 @@ copy_matrix = tf.transform(df['transcribed'])
 cosine_similarities = linear_kernel(tfidf_matrix, tfidf_matrix)
 
 @app.route('/')
+@app.route('/index')
 def main():
-		conn = sqlite3.connect('/Users/sheldon/podcasts/test.db')
-		c = conn.cursor()
-		cur = c.execute('select "index", episode, series from podcast')
-		db_request = [dict(index=row[0], episode=row[1], series=row[2]) for row in cur.fetchall()]
-		return render_template('index.html', data=db_request)
+	conn = sqlite3.connect('/Users/sheldon/podcasts/test.db')
+	c = conn.cursor()
+	cur = c.execute('select "index", episode, series from podcast')
+	db_request = [dict(index=row[0], episode=row[1], series=row[2]) for row in cur.fetchall()]
+	return render_template('index.html', data=db_request)
+
+@app.route('/login', methods=['GET','POST'])
+def login():
+	form = LoginForm()
+	if form.validate_on_submit():
+		flash('Login requested for OpenID="%s", remember_me="%s' % (form.openid.data, str(form.remember_me.data)))
+		return redirect('/index')
+	return render_template('login.html', title='Sign In', form=form)
+
+@app.route('/register', methods=['GET','POST'])
+def register():
+    form = RegistrationForm(request.form)
+    if request.method == 'POST' and form.validate():
+        user = User(form.username.data, form.email.data,
+                    form.password.data)
+        db_session.add(user)
+        flash('Thanks for registering')
+        return redirect(url_for('login'))
+    return render_template('register.html', form=form)
 
 @app.route('/related_podcasts/<int:podcast_id>')
 def show_related_podcasts(podcast_id):
@@ -64,9 +77,9 @@ def show_related_podcasts(podcast_id):
 
 @app.route('/search/<string:query>')
 def show_related_podcast(query):
-		query = query.lower()
-		query = query.split()
-		tfidf_matrix_test = tf.fit_transform(query)
+		trans_query = query.lower()
+		trans_query = query.split()
+		tfidf_matrix_test = tf.fit_transform(trans_query)
 		tfidf_matrix_train = tf.transform(df['transcribed'])
 		tfidf_matrix_train.todense()
 		tfidf_matrix_test.todense()
@@ -78,9 +91,3 @@ def show_related_podcast(query):
 	  	final_df = related_podcasts_df.sort_values('rank')[1:11][['rank','episode','series']]
 		related_podcasts = final_df['episode']
 		return render_template('related_podcasts_to_query.html',original_query=query, data=related_podcasts)
-
-
-		
-		
-
-#@app.route('/search')
