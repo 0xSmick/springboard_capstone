@@ -32,14 +32,31 @@ tfidf_matrix = tf.fit_transform(df['transcribed'])
 copy_matrix = tf.transform(df['transcribed'])
 cosine_similarities = linear_kernel(tfidf_matrix, tfidf_matrix)
 
-@app.route('/')
 @app.route('/index')
+@app.route('/', methods = ['GET','POST'])
 def main():
-	conn = sqlite3.connect('/Users/sheldon/podcasts/test.db')
-	c = conn.cursor()
-	cur = c.execute('select "index", episode, series from podcast')
-	db_request = [dict(index=row[0], episode=row[1], series=row[2]) for row in cur.fetchall()]
-	return render_template('index.html', data=db_request)
+	if request.method == "POST":
+		query = request.form("search")
+		trans_query = query.lower()
+		trans_query = query.split()
+		tfidf_matrix_test = tf.fit_transform(trans_query)
+		tfidf_matrix_train = tf.transform(df['transcribed'])
+		tfidf_matrix_train.todense()
+		tfidf_matrix_test.todense()
+		query_similarities = linear_kernel(tfidf_matrix_test, tfidf_matrix_train)
+		query_similarities = query_similarities.argsort()[0][::-1]
+		pod_dict = dict(zip(range(0, len(query_similarities)),query_similarities))
+		pod_dict = pd.DataFrame({'rank':pod_dict.keys()}, index=pod_dict.values())
+		related_podcasts_df = pd.DataFrame.join(pod_dict, df, how='inner')
+	  	final_df = related_podcasts_df.sort_values('rank')[1:11][['rank','episode','series']]
+		related_podcasts = final_df['episode']
+		return redirect(url_for('related_podcasts_to_query.html',original_query=query, data=related_podcasts))
+	else:
+		conn = sqlite3.connect('/Users/sheldon/podcasts/test.db')
+		c = conn.cursor()
+		cur = c.execute('select "index", episode, series from podcast')
+		db_request = [dict(index=row[0], episode=row[1], series=row[2]) for row in cur.fetchall()]
+		return render_template('index.html', data=db_request)
 
 @app.route('/login', methods=['GET','POST'])
 def login():

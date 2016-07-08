@@ -2,10 +2,17 @@
 {% block content %}
 <html>
 	<head>
+	<div class="container">
 		<title>Podly (Working Title)</title>
 	</head>
 	<body>
-		<h1>Hello, please select a podcast</h1>
+		<h1>Hello, please select a podcast below or search for a podcast topic</h1>
+		<form role="form" method='POST' action='/'>
+        <div class="form-group">
+          <input type="text" name="search" class="form-control" id="url-box" placeholder="Enter Search Terms (separated by space)" style="max-width: 700px;" autofocus required>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      	</form>
 
 		<div>
 		{% for podcast in data %}
