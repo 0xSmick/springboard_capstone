@@ -5,7 +5,6 @@ import numpy as np
 import os
 import glob
 import nltk.data
-#from __future__ import division  # Python 2 users only
 import nltk, re, pprint
 from nltk import word_tokenize
 from sklearn.feature_extraction.text import CountVectorizer
@@ -36,7 +35,7 @@ cosine_similarities = linear_kernel(tfidf_matrix, tfidf_matrix)
 @app.route('/', methods = ['GET','POST'])
 def main():
 	if request.method == "POST":
-		query = request.form("search")
+		query = request.form.get('search','default value')
 		trans_query = query.lower()
 		trans_query = query.split()
 		tfidf_matrix_test = tf.fit_transform(trans_query)
@@ -50,7 +49,7 @@ def main():
 		related_podcasts_df = pd.DataFrame.join(pod_dict, df, how='inner')
 	  	final_df = related_podcasts_df.sort_values('rank')[1:11][['rank','episode','series']]
 		related_podcasts = final_df['episode']
-		return redirect(url_for('related_podcasts_to_query.html',original_query=query, data=related_podcasts))
+		return redirect('/search/{}'.format(query))
 	else:
 		conn = sqlite3.connect('/Users/sheldon/podcasts/test.db')
 		c = conn.cursor()
