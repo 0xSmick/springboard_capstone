@@ -10,11 +10,11 @@ from gensim import corpora, models, similarities
 import gensim
 import sqlite3
 
-dictionary = corpora.Dictionary.load('words.dict')
-corpus = corpora.MmCorpus('corpus.mm')
-tfidf = gensim.models.tfidfmodel.TfidfModel.load('tfidf_model')
-lsi = gensim.models.lsimodel.LsiModel.load('model.lsi')
-index = similarities.MatrixSimilarity.load('corpus.index')
+dictionary = corpora.Dictionary.load('models/words.dict')
+corpus = corpora.MmCorpus('models/corpus.mm')
+tfidf = gensim.models.tfidfmodel.TfidfModel.load('models/tfidf_model')
+lsi = gensim.models.lsimodel.LsiModel.load('models/model.lsi')
+index = similarities.MatrixSimilarity.load('models/corpus.index')
 corpus_tfidf = tfidf[corpus]
 corpus_lsi = lsi[corpus_tfidf]
 
